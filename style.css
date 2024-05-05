@@ -1,7 +1,36 @@
 body{
-
+    background-color:burlywood ;
 }
 
+.Container{
+    display: inline-flex;
+}
+
+#Play{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+#Pause{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+}
 #Icon{
+    margin: auto;
     width: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+#Title{
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-size: 60px;
+    color: gold;
 }
